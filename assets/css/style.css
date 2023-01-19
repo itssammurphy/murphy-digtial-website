@@ -342,14 +342,36 @@ section {
   }
 
   .big-title {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+  }
+
+  .centered > h1 {
+    font-size: 3rem;
+  }
+  .centered > h2 {
+    font-size: 2rem;
+    font-weight: 700;
   }
 
   .text {
     margin: 1.1rem 0 1.5rem;
   }
-
+  .showcase-area {
+    min-height: 100vh;
+    height: auto;
+  }
   .showcase-area .btn {
     font-size: 0.8rem;
+  }
+  .testimonial-index {
+    width: 90vw;
+    height: 50vh;
+    box-shadow: none;
+  }
+  .testimonial-index .image {
+    width: 50%;
+  }
+  .calendly-inline-widget {
+    height: 800px;
   }
 }
