@@ -191,7 +191,7 @@ header .container {
   color: var(--darkOne);
   font-size: 2rem;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .centered > h1 {
@@ -223,7 +223,8 @@ section {
 }
 
 .calendly-inline-widget {
-  height: 690px !important;
+  height: 700px !important;
+  overflow: hidden !important;
 }
 
 /* KEYFRAMES AND MEDIA */
@@ -313,7 +314,15 @@ section {
   }
 
   .big-title {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .text {
@@ -321,18 +330,9 @@ section {
     margin: 1.4rem 0 1.5rem;
   }
 
-  .person {
-    width: 100%;
-    transform: none;
-  }
-
-  .logo h3 {
-    font-size: 1.25rem;
-  }
-
-  .shape {
-    bottom: -180px;
-    left: -150px;
+  .testimonial-index {
+    box-shadow:  10px 10px 21px #73b3bf,
+                -10px -10px 21px #adffff;
   }
 }
 
@@ -350,7 +350,6 @@ section {
   }
   .centered > h2 {
     font-size: 2rem;
-    font-weight: 700;
   }
 
   .text {
