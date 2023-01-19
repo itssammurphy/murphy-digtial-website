@@ -24,7 +24,7 @@ a {
 
 .big-wrapper {
     position: relative;
-    padding: 2rem 0 2rem;
+    padding: 2rem 0 0;
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
@@ -156,6 +156,14 @@ header .container {
     text-align: center;
     font-weight: 900;
 }
+
+.centered > h1 {
+  color: var(--navy);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+}
+
 .centered > p {
     text-align: justify;
     color: var(--lightOne);
@@ -164,13 +172,18 @@ header .container {
     margin: 2rem 0 2rem;
 }
 
-
+section {
+  padding: 5rem 0;
+}
 .white-sect {
     background-color: white;
-    padding: 5rem 0;
 }
 .white-sect h2 {
     color: var(--navy) !important;
+}
+
+.calendly-inline-widget {
+  height: 690px !important;
 }
 
 /* KEYFRAMES AND MEDIA */
