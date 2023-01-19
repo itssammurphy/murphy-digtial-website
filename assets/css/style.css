@@ -161,6 +161,8 @@ header .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow:  35px 35px 91px #73b3bf,
+             -35px -35px 91px #adffff;
 }
 .testimonial-index .image {
   width: 150px;
