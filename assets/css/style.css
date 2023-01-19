@@ -163,6 +163,9 @@ header .container {
   align-items: center;
   box-shadow:  35px 35px 91px #73b3bf,
              -35px -35px 91px #adffff;
+  opacity: 0;
+  animation: 1s ease-in-out fadeInUp forwards;
+  animation-delay: 500ms;
 }
 .testimonial-index .image {
   width: 150px;
