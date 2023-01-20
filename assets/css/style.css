@@ -230,6 +230,43 @@ section {
   overflow: hidden !important;
 }
 
+.contact-form {
+  width: 80%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+}
+.contact-form > .form-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+.contact-form label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+input.bot-field {
+  display: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+
 /* KEYFRAMES AND MEDIA */
 @keyframes fadeInUp {
   0% {

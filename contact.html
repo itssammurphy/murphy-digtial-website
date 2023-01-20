@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Murphy Digital - Google Ads Agency</title>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
@@ -19,10 +19,7 @@
 
                     <div class="links">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#" class="btn">Contact Us</a></li>
+                            <li><a href="index.html">Home</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,25 +29,41 @@
                 <div class="container">
                     <div class="left">
                         <div class="big-title">
-                            <h1>Unleash and Elevate your Business</h1>
-                            <h2>Google Advertising Specialists</h2>
+                            <h1>Contact Us</h1>
+                            <h2>Murphy Digital</h2>
                         </div>
                         <p class="text">
-                            We specialise in the use of Google Ads to help businesses unleash their full potential and reach new heights. Through the use of innovative and effective marketing strategies, we are dedicated to the delivery of exceptional results and the success our clients deserve.
+                            Fill in the form opposite in order to send through an enquiry. Please be sure to fill in the information as accurately and with as much detail as possible so our team is able to adequately respond to your message.
                         </p>
-                        <div class="cta">
-                            <a href="#" class="btn">Contact Us</a>
-                        </div>
                     </div>
                     <div class="right">
-    
+                        <form 
+                            class="contact-form"
+                            name="contact"
+                            method="POST"
+                            data-netlify="true"
+                            onsubmit="submit"
+                            data-netlify-honeypot="bot-field"
+                        >
+                            <input class="bot-field" name="bot-field">
+                            <div class="form-row">
+                                <label for="name">Your Name</label>
+                                <input name="name" type="text" id="name" />
+                            </div>
+                            <div class="form-row">
+                                <label for="email">Email address</label>
+                                <input name="email" type="text" id="email" />
+                            </div>
+                            <div class="form-row">
+                                <label for="message">Message</label>
+                                <textarea name="message" rows="5" id="message"></textarea>
+                            </div>
+                            <button class="btn" type="submit">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
-    <!-- JAVASCRIPT FILES -->
-    <script src="./app.js"></script>
 </body>
 </html>
