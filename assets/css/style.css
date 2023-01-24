@@ -267,6 +267,40 @@ button {
   outline: none;
 }
 
+.onboarding-title {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+}
+.onboarding-title h1 {
+  font-weight: 900;
+  opacity: 0;
+  animation: 1s ease-in-out fadeInUp forwards;
+}
+.onboarding-title h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  opacity: 0;
+  animation: 1s ease-in-out fadeInUp forwards;
+  animation-delay: 500ms;
+}
+.onboarding-title p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  animation: 1s ease-in-out fadeInUp forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.onboarding-showcase-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+
 /* KEYFRAMES AND MEDIA */
 @keyframes fadeInUp {
   0% {
@@ -378,7 +412,7 @@ button {
 
 @media screen and (max-width: 500px) {
   .container {
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 0 1.5rem;
   }
 
   .big-title {
@@ -396,6 +430,7 @@ button {
     margin: 1.1rem 0 1.5rem;
   }
   .showcase-area {
+    width: 100vw;
     min-height: 100vh;
     height: auto;
   }
@@ -412,5 +447,13 @@ button {
   }
   .calendly-inline-widget {
     height: 800px;
+  }
+
+  .right {
+    max-width: 100vw;
+  }
+
+  .contact-form {
+    width: 95vw;
   }
 }
